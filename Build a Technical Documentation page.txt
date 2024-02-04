@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Technical Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>Technical Documentation</header>
+        <a class="nav-link" href="#introduction">Introduction</a>
+        <a class="nav-link" href="#javaScript_and_Java">JavaScript and Java</a>
+ <a class="nav-link" href="#python_Programming">Python Programming</a>
+<a class="nav-link" href="#web_Development">Web Development</a>
+<a class="nav-link"  href="#front_End_Development">Front End Development</a>
+<a class="nav-link"  href="#back_End_Development">Back End Development</a>
+    </nav>
+
+
+<main id="main-doc">
+        <section id="introduction" class="main-section">
+            <header>Introduction</header>
+            <p>freeCodeCamp (also referred to as Free Code Camp) is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning software development accessible to anyone.</p>
+            
+        </section>
+        <br>
+<section id="javaScript_and_Java" class="main-section">
+            <header>JavaScript and Java</header>
+            <p>Content for JavaScript and Java section.</p>
+            <p>Neither Java nor JavaScript are typically compiled in this way. Java and JavaScript operate in distinct ways. </p>
+            <p>For this comparison, we will assume Java is compiled to JVM bytecode, and JavaScript is being run in a NodeJS interpreter.</p>
+            <code>public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}</code> 
+        </section>
+        <br>
+        <section id="python_Programming" class="main-section">
+          <header>Python Programming</header>
+          <p>Content for python:</p>
+          Naming Python's name is derived from the British comedy group Monty Python, whom Python creator Guido van Rossum enjoyed while developing the language.
+          <p># This program adds two numbers</p>
+<code>  num1 = 1.5
+        num2 = 6.3
+        # Add two numbers
+        sum = num1 + num2
+        # Display the sum
+        print('The sum of {0} and {1} is {2}'
+        format(num1, num2, sum))</code>
+        
+        </section>
+        <br>
+        <section id="web_Development" class="main-section">
+          <header>Web Development</header>
+          <p>Content for Web development</p>
+          Web development is known as website development or web application development.</p>
+          <p> The web development creates, maintains, and updates web development applications using a browser.</p>
+          <p> This web development requires web designing, backend programming, and database management. The development process requires software technology.</p>
+          <code>public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}</code>
+<code>public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}</code>
+</section>
+<br>
+<section id="front_End_Development" class="main-section">
+  <header>Front End Development</header>
+  <p>It is the front end developer's job to take the vision and design concept from the client and implement it through code.</p> <p>Let's take a look at the freeCodeCamp home page</p>
+  <ol>
+    <li>HTML (HyperText Markup Language)</li>
+      <li>CSS (Cascading Style Sheets)</li> 
+       <li>JavaScript. JavaScript (JS)</li> 
+        <li>React. React</li>
+  </ol>
+  </section>
+  <br>
+  <section id="back_End_Development" class="main-section">
+    <header>Back End Development</header>
+    <p>Back-End Developers use a range of technology and software, many of which fall into three categories:</p> 
+    <code>  num1 = 1.5
+        num2 = 6.3
+        # Add two numbers
+        sum = num1 + num2
+        # Display the sum
+        print('The sum of {0} and {1} is {2}'
+        format(num1, num2, sum))</code>
+    <ol>
+    <li>databases</li>
+    <li> programming languages</li> 
+    <li> frameworks.</li>
+    </ol>
+    
+</section>
+    </main>
+</body>
+</html>
+CSS
+#navbar {
+        width: 100%;
+        position: static;
+        box-shadow: none;
+    }
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }

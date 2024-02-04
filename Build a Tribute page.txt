@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main">
+      <title id="title">"Dr.Norman Borlaug"</title>
+       <div id="img-div" class="parent-img">
+         <img id="image" src="freecode.jpg"></div>
+            <div id="img-div">
+            <figcaption id="img-caption" class="centered-image">Let's code together"</figcaption>
+            </div>
+              <p id="tribute-info">freeCodeCamp is a community of people around the world who are learning to code together. We're a 501 (c) (3) public charity. How will freeCodeCamp help me learn to code? You'll learn to code by building dozens of projects step-by-step – right in your browser, code editor, or mobile app. You'll also earn free verified certifications along the way.</p>
+        <a id="tribute-link" href="https://r.search.yahoo.com/_ylt=AwrjaYhGd4FlHU8GgtpXNyoA;_ylu=Y29sbwNncTEEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1703012295/RO=10/RU=https%3a%2f%2fwww.freecodecamp.org%2f/RK=2/RS=XXS1GIyVxIDdck8bkhoPoUYYjIk-" target="_blank">click on link to learn more</a> about freecodecamp
+    </main>
+  </body>
+</html>
+CSS
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto; 
+}

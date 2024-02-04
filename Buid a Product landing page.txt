@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <img id="header-img" src="freeCodeCamp.png" alt="freeCodeCamp">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#section1">Section 1</a>
+            <a class="nav-link" href="#section2">Section 2</a>
+            <a class="nav-link" href="#section3">Section 3</a>
+        </nav>
+    </header>
+
+    <section id="section1">
+      freeCodeCamp is a donor-supported tax-exempt 501(c)(3) charitable organization (United States Federal Tax Identification Number: 82-0779546). Our mission: to help people learn to code for free.
+    </section>
+
+    <section id="section2">
+       Beginning with tutorials that introduce students to HTML, CSS and JavaScript, students progress to project assignments that they complete either alone or in pairs. Upon completion of all project tasks, students are partnered with other nonprofits to build web applications, giving the students practical development experience.
+
+    </section>
+
+    <section id="section3">
+        <video id="video" controls>
+            <source src="your-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" name="email" required>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
+CSS
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+#form {
+    text-align: center;
+    margin-top: 2em;
+}
+
+@media (max-width: 600px) {
+    .product{
+      display: flex;
+    }
+}

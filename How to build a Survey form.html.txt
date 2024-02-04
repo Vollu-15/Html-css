@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>freecodecamp</title>
+<link rel="stylesheet" href="styles.css">
+
+<h1 id="title">SURVEY FORM</h1>
+<p id="description">This is a form to conduct a survey on freecodecamp.Since 2014, more than 40,000 freeCodeCamp.org graduates have gotten jobs at tech companies including: google,microsoft etc.</p>
+</head>
+<body>
+<form id="survey-form">
+<label for="name" id="name-label">Name: </label>
+<input id="name" type="text" placeholder="Enter your name" required>
+<br><br>
+<label for="email" id="email-label">Email: </label><input id="email" type="email" placeholder="Enter your email" required>
+<br><br>
+<label for="number" id="number-label">Number: </label> <input id="number" type="number" placeholder="Enter your number" min="0" max="10" required>
+<br><br>
+<label for="dropdown">Education:  </label>
+<select id="dropdown">
+  <option value="BE/B.Tech">BE/B.Tech</option>
+  <option value="Degree">Degree</option>
+  <option value="diploma">diploma</option>
+  <option value="pg">pg</option>
+  </select>
+<br><br>
+<label>Gender: </label>
+<label>Male</label><input type="radio" name="radio1" value="radio1">
+<label>Female</label><input type="radio" name="radio1" value="radio2">  
+ <label>Others</label><input type="radio" name="radio1" value="radio3">
+ <br><br>
+ <input type="checkbox" id="checkbox1" value="checkbox1">
+ <label for="checkbox1"> verified</label>
+ <br><br>
+ <input type="checkbox" id="checkbox2" value="checkbox2">
+ <label for="checkbox2"> Not verified</label>
+ <br><br>
+ <label>Additional comments: </label>
+ <br>
+ <textarea placeholder="Enter your comments"></textarea>
+ <button type="submit" id="submit" value="SUBMIT">
+ </form>
+  </body>
+</html>
+CSS
+h1{
+  text-align: center;
+}
+number{
+  min: 0;
+  max: 10
+}
